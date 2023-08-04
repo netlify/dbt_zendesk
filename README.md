@@ -8,7 +8,7 @@ This package enables you to better understand the performance of your Support te
 - Package converts metrics to business hours
 - Package calculates SLA policy breaches
 
-## Models
+## Model
 
 This package contains transformation models, designed to work simultaneously with our [Zendesk Support source package](https://github.com/fivetran/dbt_zendesk_source). A dependency on the source package is declared in this package's `packages.yml` file, so it will automatically download when you run `dbt deps`. The primary outputs of this package are described below. Intermediate models are used to create these output models.
 
